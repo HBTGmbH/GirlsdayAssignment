@@ -1,7 +1,5 @@
 package de.hbt.girlsday.calculator.AufgabenblockB;
 
-import static de.hbt.girlsday.calculator.AufgabenblockB.HelperMethods.max;
-
 public class AssignmentsUsingLoops {
 
     /*
@@ -32,16 +30,7 @@ public class AssignmentsUsingLoops {
      * Als Ergebnis erwarten wir also 48 + 47 = 95 Stunden
      */
     static int howManyHours(final int numberOfTasks) {
-        final var minimalHoursForOneTask = 3;
-        var hoursForOneTask = 48;
-        var effort = 0;
-        for (int i = 1; i <= numberOfTasks; i++) {
-            effort += hoursForOneTask;
-            if (hoursForOneTask > minimalHoursForOneTask) {
-                hoursForOneTask--;
-            }
-        }
-        return effort;
+        return 0;
     }
 
     /*
@@ -60,16 +49,6 @@ public class AssignmentsUsingLoops {
      *
      */
     static int howManyHours(final int numberOfTasks, final int initialHoursForOneTask, final int minimalHoursForOneTask, final int improvementHoursPerTask) {
-        var hoursForOneTask = max(initialHoursForOneTask, minimalHoursForOneTask);
-        var effort = 0;
-        for (int i = 1; i <= numberOfTasks; i++) {
-            effort += hoursForOneTask;
-            if (hoursForOneTask - improvementHoursPerTask >= minimalHoursForOneTask) {
-                hoursForOneTask -= improvementHoursPerTask;
-            } else {
-                hoursForOneTask = minimalHoursForOneTask;
-            }
-        }
-        return effort;
+        return 0;
     }
 }

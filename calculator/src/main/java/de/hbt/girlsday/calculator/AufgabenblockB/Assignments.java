@@ -1,6 +1,5 @@
 package de.hbt.girlsday.calculator.AufgabenblockB;
 
-import de.hbt.girlsday.calculator.AufgabenblockA.Calculator;
 import de.hbt.girlsday.calculator.AufgabenblockA.DivisionByZeroIsNotAllowed;
 
 public class Assignments {
@@ -29,10 +28,8 @@ public class Assignments {
      * Bei insgesamt 485 Personen und 50 Sitzplätzen pro Bus, werden 10 Busse gebraucht.
      * 9 Busse sind dabei voll besetzt und im zehnten Bus sitzen 35 Personen
      */
-    static double busPlanning(final double children, final double teacher, final double seatsPerBus) throws DivisionByZeroIsNotAllowed{
-        var allPeople = Calculator.add(children, teacher);
-        var busses = Calculator.divide(allPeople, seatsPerBus);
-        return Math.ceil(busses);
+    static double busPlanning(final double children, final double teacher, final double seatsPerBus) throws DivisionByZeroIsNotAllowed {
+        throw new DivisionByZeroIsNotAllowed();
     }
 
     /*
@@ -44,21 +41,11 @@ public class Assignments {
      * Hinweis: hier wurde eine Klasse als Rückgabe definiert, tragt einfach die zwei Lösungen an die richtige Stelle ein.
      *
      * Beispiel:
-     *
+     * TODO fill this
      */
     static CandyResult candyForKids(final double classmates, final double candyBags) {
-        /* TODO Initialisierung:
-         *  var candyPerKid = 0;
-         *  var leftOverCandy = 0;
-         *  return new CandyResult(leftOverCandy, candyPerKid);
-         */
-        var allCandy = Calculator.multiply(candyBags, 15);
-
-        if (classmates == 0) {
-            return new CandyResult(0d, allCandy);
-        }
-        var candyPerKid = Math.floor(allCandy / classmates);
-        var leftOverCandy = Calculator.sub(allCandy, Calculator.multiply(candyPerKid, classmates));
-        return new CandyResult(candyPerKid, leftOverCandy);
+        var candyPerKid = 0;
+        var leftOverCandy = 0;
+        return new CandyResult(leftOverCandy, candyPerKid);
     }
 }

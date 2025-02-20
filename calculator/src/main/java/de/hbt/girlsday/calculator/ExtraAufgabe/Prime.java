@@ -21,12 +21,7 @@ public class Prime {
      * Die 6 ist keine Primzahl, da sie durch 3 und 2 teilbar ist.
      */
     public static boolean isPrime(final int number) {
-        for (int i = 2; i < number; i++) {
-            if (number % i == 0) {
-                return false;
-            }
-        }
-        return true;
+        return false;
     }
 
 }

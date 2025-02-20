@@ -12,7 +12,7 @@ public class Calculator {
      * dann soll als Ergebnis 9 zurückgegeben werden
      */
     public static double add(final double factor1, final double factor2) {
-        return factor1 + factor2;
+        return 0;
     }
 
     /*
@@ -25,7 +25,7 @@ public class Calculator {
      * dann soll als Ergebnis 3 zurückgegeben werden
      */
     public static double sub(final double factor1, final double factor2) {
-        return factor1 - factor2;
+        return 0;
     }
 
     /*
@@ -38,7 +38,7 @@ public class Calculator {
      * dann soll als Ergebnis 18 zurückgegeben werden
      */
     public static double multiply(final double factor1, final double factor2) {
-        return factor1 * factor2;
+        return 0;
     }
 
     /*
@@ -53,11 +53,7 @@ public class Calculator {
      * Hinweis: um einen bestimmten Fehler auszugeben wird dieser mithilfe von throw "geworfen"
      */
     public static double divide(final double factor1, final double factor2) throws DivisionByZeroIsNotAllowed {
-        // TODO für leeres Projekt: throw new DivisionByZeroIsNotAllowed();
-        if (factor2 == 0d) {
-            throw new DivisionByZeroIsNotAllowed();
-        }
-        return factor1 / factor2;
+        throw new DivisionByZeroIsNotAllowed();
     }
 
 }
