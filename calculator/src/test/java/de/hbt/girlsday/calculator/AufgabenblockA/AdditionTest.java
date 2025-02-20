@@ -1,5 +1,6 @@
 package de.hbt.girlsday.calculator.AufgabenblockA;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -9,10 +10,11 @@ class AdditionTest {
   /*
    * Das hier ist ein Test, wie wir ihn auch schreiben würden. Die Struktur ist gegeben durch given, when, then
    * in given definieren wir Eingabe Werte sowie das erwartete Ergebnis des Aufrufs
-   * in when wird der Aufruf ausgeführt und einer Variable zugewiesen, die das echte Ergebnis des Aufrufs erhält
+   * in when wird der Aufruf ausgeführt und einer Variable zugewiesen, die das echte Ergebnis des Aufrufs erhält,
    * in then ist der Hauptpart des Tests, hier wird die Erwartung mit dem echten Ergebnis verglichen
    */
   @Test
+  @DisplayName("das stimmt weil das ")
   void add1() {
     // given
     double factor1 = 1d;

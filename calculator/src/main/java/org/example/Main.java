@@ -19,9 +19,9 @@ public class Main {
         // Bedingungen - if
         if (tmp != zero) {
             // Konsolenausgabe
-            System.out.println("Hallo Welt!");
+            System.out.println("Die Variable ist nicht null!");
         } else {
-            System.out.println("Hello world!");
+            System.out.println("Die Variable ist gleich null!");
         }
 
         // Schleifen
@@ -32,15 +32,6 @@ public class Main {
         // for (Startwert ; Bedingung ; Veränderung)
         for (int i = 0; i <= 2; i = i + 1) {
             tmp = tmp + i;
-        }
-
-        // Optionals
-        // Optional definieren
-        var option = Optional.of(giveBackInput(tmp));
-        // überprüfen, ob es einen Wert in dem Optional gibt
-        if (option.isPresent()) {
-            // den Wert abrufen (nur nach dem Vorhandensein Check)
-            System.out.println("Es ist ein Wert vorhanden" + option.get());
         }
 
         if (tmp < 0) {
