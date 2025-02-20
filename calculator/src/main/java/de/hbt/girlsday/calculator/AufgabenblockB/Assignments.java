@@ -44,6 +44,7 @@ public class Assignments {
      * Hinweis: hier wurde eine Klasse als Rückgabe definiert, tragt einfach die zwei Lösungen an die richtige Stelle ein.
      *
      * Beispiel:
+     * TODO add example
      *
      */
     static CandyResult candyForKids(final double classmates, final double candyBags) {
