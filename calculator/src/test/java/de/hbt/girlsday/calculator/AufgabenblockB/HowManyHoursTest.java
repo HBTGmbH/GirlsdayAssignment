@@ -9,7 +9,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class HowManyHoursTest {
     /*
-     * Tests für die erste Version der Aufgabe
+     * Tests für AUFGABE 1
      */
     @Nested
     @DisplayName("Aufgabe 1:")
@@ -22,13 +22,13 @@ public class HowManyHoursTest {
             assertThat(howManyHours(2)).isEqualTo(95);
         }
         @Test
-        @DisplayName("Test: Ausführung ohne Ausnahme von minimaler Stundenanzahl von 3")
+        @DisplayName("Test: Ausführung ohne den Mindestaufwand von 3 Stunden zu erreichen")
         void howManyHours2() {
             assertThat(howManyHours(45)).isEqualTo(1170);
         }
 
         @Test
-        @DisplayName("Test: Ausführung mit Ausnahme von minimaler Stundenanzahl von 3")
+        @DisplayName("Test: Ausführung mit Erreichung des Mindestaufwands von 3 Stunden")
         void howManyHours3() {
             assertThat(howManyHours(50)).isEqualTo(1185);
         }
@@ -36,7 +36,7 @@ public class HowManyHoursTest {
 
 
     /*
-     * Tests für die zweite Version der Aufgabe
+     * Tests für AUFGABE 2
      */
     @Nested
     @DisplayName("Aufgabe 2:")

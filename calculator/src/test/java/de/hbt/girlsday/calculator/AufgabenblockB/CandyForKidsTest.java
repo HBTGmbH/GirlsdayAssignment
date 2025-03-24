@@ -28,8 +28,15 @@ public class CandyForKidsTest {
     }
 
     @Test
-    @DisplayName("Test: Ausnahme alle Klassenkameraden sind krank")
+    @DisplayName("Test: Ausnahme du hast die Bonbons zuhause vergessen")
     void candyForKids4() {
+        assertDoesNotThrow(() -> candyForKids(18, 0));
+        assertThat(candyForKids(18, 0)).isEqualTo(new CandyResult(0, 0));
+    }
+
+    @Test
+    @DisplayName("Test: Ausnahme alle Klassenkameraden sind krank")
+    void candyForKids5() {
         assertDoesNotThrow(() -> candyForKids(0, 2));
         assertThat(candyForKids(0, 2)).isEqualTo(new CandyResult(0, 30));
     }

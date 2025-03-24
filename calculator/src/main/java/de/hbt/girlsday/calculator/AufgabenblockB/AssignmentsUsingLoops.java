@@ -6,15 +6,14 @@ public class AssignmentsUsingLoops {
 
     /*
      * EINLEITUNG:
-     * Hier wollen wir jetzt kleine Aufgaben mithilfe von Schleifen lösen.
+     * Hier wollen wir jetzt kleine Textaufgaben mithilfe von Schleifen lösen.
      *
-     * Die Voraussetzungen sind wieder wie bei den anderen Aufgaben.
-     * Über der Methode steht immer eine Beschreibung der Aufgabe und die Tests sind wie immer bereits geschrieben.
-     * Ziel ist es, alle Tests zu erfüllen (grüne Anzeige).
+     * Die Voraussetzungen sind wieder wie bei den vorherigen Aufgaben.
+     * Über jeder Methode steht eine Beschreibung der Aufgabe und die Tests sind bereits gefüllt.
+     * Die Aufgabe ist es, die Methode zu füllen und damit alle Tests zu erfüllen (grüne Anzeige).
      *
      * Es stehen fast immer genaue Angaben im Text. Die Eingaben sind jeweils vordefiniert.
      * Wenn es zu einer Angabe in der Aufgabe keine definierte Eingabe gibt, sollen die Zahlen direkt in die Lösung geschrieben werden.
-     *
      */
 
 
@@ -47,7 +46,8 @@ public class AssignmentsUsingLoops {
     /*
      * AUFGABE 2:
      * Hier ist noch einmal die gleiche Aufgabe wie vorher beschrieben.
-     * Es gibt aber andere (mehr) Eingabeparameter. Das führt zu ein paar Ausnahmen, die ihr anders behandeln müsst.
+     * Es gibt aber mehr Eingabeparameter. Die vorher fest gesetzten Werte vom Grundaufwand, Mindestaufwand und Verbesserung sind jetzt variabel.
+     * Das führt zu ein paar Ausnahmen, die ihr anders behandeln müsst.
      *
      * Hinweis: Kopiert die Lösung von oben und tauscht die Variablen nach und nach aus! Schaut dann was verändert werden muss.
      *

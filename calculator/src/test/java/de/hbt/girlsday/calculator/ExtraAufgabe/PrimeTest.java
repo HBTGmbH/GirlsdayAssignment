@@ -10,8 +10,8 @@ class PrimeTest {
 
     /*
      * Aufgabe 2:
-     * Schreibe einen eigenen Test zu deiner Lösung. Dies kannst du in der Datei PrimeTest.java hinzufügen.
-     * Dieser sollte verschiedene Primzahlen und nicht Primzahlen testen.
+     * Schreibe einen eigenen Test zu deiner Lösung. Dies kannst du hier tun.
+     * Dieser sollte mindestens eine Primzahl und eine nicht Primzahl testen.
      */
     @Test
     @DisplayName("Hier ist Platz für deinen eigenen Test aus Aufgabe 2.")
@@ -47,7 +47,6 @@ class PrimeTest {
      * Zusatzaufgabe 2:
      * Was passiert bei deiner Methode, wenn die Eingabe 0, 1 oder eine negative Zahl wie -5 ist?
      * Primzahlen können nur positiv sein. Außerdem müssen sie größer als 1 sein.
-     * Schreibe auch für diese Fälle Tests und passe deine Lösung gegebenenfalls an,
-     * falls diese Tests zunächst fehlschlagen.
+     * Schreibe auch für diese Fälle Tests und passe deine Lösung gegebenenfalls an, falls diese Tests zunächst fehlschlagen.
      */
 }
