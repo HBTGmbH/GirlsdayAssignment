@@ -13,7 +13,7 @@ class MultiplicationTest {
 
   @Test
   void multiply2() {
-    assertThat(Calculator.multiply(1d, 2d)).isEqualTo(2d);
+    assertThat(Calculator.multiply(6d, 3d)).isEqualTo(18d);
   }
 
   @Test

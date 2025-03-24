@@ -14,7 +14,7 @@ class DivisionTest {
 
   @Test
   void divide2() throws DivisionByZeroIsNotAllowed {
-    assertThat(Calculator.divide(10d, 5d)).isEqualTo(2d);
+    assertThat(Calculator.divide(6d,3d)).isEqualTo(2d);
   }
 
   @Test
@@ -23,8 +23,8 @@ class DivisionTest {
   }
 
   /*
-   * Das hier ist eine Besonderheit. Bei der Division gibt es eine Ausnahme, es kann nicht durch null geteilt werden.
-   * Hier soll eine Exception geworfen werden. Diese sagt dem Anwender, dass das die Eingabe nicht erlaubt ist.
+   * Das hier ist eine Besonderheit. Bei der Division gibt es eine Ausnahme, es darf nicht durch null geteilt werden.
+   * Hier soll ein Fehler (engl. Exception) geworfen werden. Diese sagt dem Anwendenden, dass das die Eingabe nicht erlaubt ist.
    */
   @Test
   void dividedByZero() {
