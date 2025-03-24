@@ -45,12 +45,13 @@ public class Calculator {
      * Methode für Division
      * factor1 soll durch factor2 geteilt werden
      * die Rückgabe ist der Quotient der Rechnung
+     * Achtung: In der Division gibt es eine Ausnahme. Durch 0 darf nie geteilt werden.
+     *          Dieser Fall muss also abgefangen werden und es wird ein Fehler ausgegeben.
+     *          Statt eines Rückgabewerts muss hier dann diese Zeile stehen. "throw new DivisionByZeroIsNotAllowed();"
      *
      * Beispiel:
      * Wenn factor1 gleich 6 ist und factor2 gleich 3 ist,
      * dann soll als Ergebnis 2 zurückgegeben werden
-     *
-     * Hinweis: um einen bestimmten Fehler auszugeben wird dieser mithilfe von throw "geworfen"
      */
     public static double divide(final double factor1, final double factor2) throws DivisionByZeroIsNotAllowed {
         throw new DivisionByZeroIsNotAllowed();

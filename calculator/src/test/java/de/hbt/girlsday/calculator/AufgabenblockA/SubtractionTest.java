@@ -14,7 +14,7 @@ class SubtractionTest {
 
   @Test
   void subtract2() {
-    assertThat(Calculator.sub(2d, 1d)).isEqualTo(1d);
+    assertThat(Calculator.sub(6d, 3d)).isEqualTo(3d);
   }
 
   @Test

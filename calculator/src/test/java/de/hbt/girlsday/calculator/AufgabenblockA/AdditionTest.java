@@ -1,6 +1,5 @@
 package de.hbt.girlsday.calculator.AufgabenblockA;
 
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -8,13 +7,14 @@ import static org.assertj.core.api.Assertions.assertThat;
 class AdditionTest {
 
   /*
-   * Das hier ist ein Test, wie wir ihn auch schreiben würden. Die Struktur ist gegeben durch given, when, then
-   * in given definieren wir Eingabe Werte sowie das erwartete Ergebnis des Aufrufs
-   * in when wird der Aufruf ausgeführt und einer Variable zugewiesen, die das echte Ergebnis des Aufrufs erhält,
-   * in then ist der Hauptpart des Tests, hier wird die Erwartung mit dem echten Ergebnis verglichen
+   * Das hier ist ein Test. Mit diesen arbeiten Programmierer*innen täglich und prüfen damit ihren Code.
+   *
+   * Die Struktur ist gegeben durch given, when und then.
+   * In given definieren wir die Eingabe Werte sowie das erwartete Ergebnis des Methodenaufrufs.
+   * In when wird der Aufruf ausgeführt und einer Variable zugewiesen, die dann das Ergebnis erhält.
+   * In then wird das erwartete Ergebnis mit dem tatsächlichen Ergebnis verglichen.
    */
   @Test
-  @DisplayName("das stimmt weil das ")
   void add1() {
     // given
     double factor1 = 1d;
@@ -30,12 +30,18 @@ class AdditionTest {
   }
 
   /*
-   * In der Realität wird man bei einfachen Methoden, wie dieser Addition häufig eine kurze Variante sehen
-   * der Inhalt des Tests bleibt aber gleich zum Ersten
+   * In der Realität wird man bei einfachen Methoden, wie dieser Addition häufig eine kurze Variante sehen.
+   * Der Inhalt des Tests bleibt aber gleich.
    */
   @Test
-  void add2() {
+  void add1_short() {
     assertThat(Calculator.add(1d, 2d)).isEqualTo(3d);
+  }
+
+
+  @Test
+  void add2() {
+    assertThat(Calculator.add(6d, 3d)).isEqualTo(9d);
   }
 
   @Test
