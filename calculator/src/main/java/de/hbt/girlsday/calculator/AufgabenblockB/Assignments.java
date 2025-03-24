@@ -6,15 +6,15 @@ public class Assignments {
 
     /*
      * EINLEITUNG:
-     * Hier wollen wir jetzt kleine Aufgaben lösen.
-     * Über der Methode steht immer eine Beschreibung der Aufgabe und die Tests sind wie immer bereits gefüllt.
-     * Ziel ist es, alle Tests zu erfüllen (grüne Anzeige).
+     * Hier wollen wir jetzt kleine Textaufgaben lösen. Dazu können wir die gerade erstellten Methoden verwenden.
+     * Über jeder Methode steht eine Beschreibung der Aufgabe und die Tests sind bereits gefüllt.
+     * Die Aufgabe ist es, die Methode zu füllen und damit alle Tests zu erfüllen (grüne Anzeige).
      *
      * Es stehen fast immer genaue Angaben im Text. Die Eingaben sind jeweils vordefiniert.
-     * Wenn es zu einer Angabe in der Aufgabe keine definierte Eingabe gibt, sollen die Zahlen direkt in die Lösung geschrieben werden.
+     * Wenn es zu einer Angabe in der Aufgabe keine definierte Eingabe gibt, sollen die Zahlen direkt in die Methode geschrieben werden.
      *
-     * ACHTUNG:
-     * Es gibt Hilfsmethoden, die hier benutzt werden können. Eine Beschreibung zu den
+     * Hinweis:
+     * Es gibt Hilfsmethoden, die hier benutzt werden können oder müssen. Eine Beschreibung zu den
      * verwendbaren Methoden findet ihr in der Datei "HelperMethods".
      */
 
@@ -22,7 +22,7 @@ public class Assignments {
     /*
      * Die 453 Kinder und 32 Lehrerinnen und Lehrer einer Grundschule fahren am Wandertag
      * mit Bussen in einen Freizeitpark. Jeder Bus hat 50 Sitzplätze.
-     * Wie viele Busse müssen bestellt werden?
+     * Wie viele Busse müssen bestellt werden, damit alle einen Sitzplatz bekommen?
      *
      * Beispiel:
      * Bei insgesamt 485 Personen und 50 Sitzplätzen pro Bus, werden 10 Busse gebraucht.
@@ -34,14 +34,16 @@ public class Assignments {
 
     /*
      * Du nimmst anlässlich deines Geburtstags 5 Tüten Schokoladenbonbons mit in deine Klasse.
-     * Eine Tüte enthält immer 15 Schokoladenbonbons. Alle 18 Kinder (ohne dich) sollen gleich viele Bonbons
-     * bekommen. Der Rest ist für dich gedacht. Wie viele Bonbons bekommt jeder Schüler,
-     * wie viele Bonbons sind für dich übrig?
+     * Eine Tüte enthält immer 15 Schokoladenbonbons. Alle deine 18 Mitschüler*innen sollen gleich viele Bonbons
+     * bekommen und so viele wie möglich. Sind alle versorgt, darfst du den Rest essen.
+     * Wie viele Bonbons bekommt jeder Schüler, wie viele Bonbons sind für dich übrig?
      *
-     * Hinweis: hier wurde eine Klasse als Rückgabe definiert, tragt einfach die zwei Lösungen an die richtige Stelle ein.
+     * Hinweis: hier wurde eine Klasse als Rückgabe definiert, damit mehr als eine Zahl ausgegeben werden kann.
+     *          Tragt die zwei Lösungen an der richtigen Stelle ein.
      *
      * Beispiel:
-     * TODO fill this
+     * Mit den 5 Tüten hast du insgesamt 75 Schokoladenbonbons. Das bedeutet alle 18 Mitschüler*innen bekommen 4 Bonbons.
+     * Dann sind 72 Bonbons verteilt und du bekommst die restlichen 3 Bonbons.
      */
     static CandyResult candyForKids(final double classmates, final double candyBags) {
         var candyPerKid = 0;

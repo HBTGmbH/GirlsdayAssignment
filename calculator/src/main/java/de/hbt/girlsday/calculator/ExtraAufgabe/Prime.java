@@ -11,7 +11,7 @@ public class Prime {
      *
      * Aufgabe 2:
      * Schreibe einen eigenen Test zu deiner Lösung. Dies kannst du in der Datei PrimeTest.java hinzufügen.
-     * Dieser sollte verschiedene Primzahlen und nicht Primzahlen testen.
+     * Dieser sollte mindestens eine Primzahl und eine nicht Primzahl testen.
      *
      * Beispiel:
      * Ist die Eingabe 5, soll true zurückgegeben werden.
