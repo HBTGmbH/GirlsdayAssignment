@@ -59,6 +59,9 @@ public class Assignments {
         if (classmates == 0) {
             return new CandyResult(0d, allCandy);
         }
+        if (candyBags == 0) {
+            return new CandyResult(0, 0);
+        }
         var candyPerKid = Math.floor(allCandy / classmates);
         var leftOverCandy = Calculator.sub(allCandy, Calculator.multiply(candyPerKid, classmates));
         return new CandyResult(candyPerKid, leftOverCandy);
